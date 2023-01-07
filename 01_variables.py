@@ -33,3 +33,8 @@ age = input('Cuantos años tienes? ')
 
 print(first_name)
 print(age)
+
+# Forzamos el tipo, QUE NO TIENE SENTIDO PORQUE MODIFICAMOS EL VALOR
+address: str = " Mi direccion"
+address: 32
+print(type(address))
